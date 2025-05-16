@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#container{
+    padding: 15px 15px;
+    border-radius: 13px;
+    margin-top: 70px;
+    background-color: black;
+    height: 400px;
+    width: 250px;
+}
+#input{
+align-items: center;
+width: 236px;
+    font-size: 2rem;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#buttons{
+    display: flex;
+    height: 40px;
+}
+.nums , .oprations ,.oprationsx{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.25s;
+    font-size: 1.2rem;
+}
+.nums{
+    background-color: antiquewhite;
+}
+.nums:hover{
+    background-color: hsl(34, 78%, 80%);
+}
+.oprations{
+    background-color: rgb(250, 217, 155);
+}
+.oprations:hover{
+    background-color: hsl(39, 90%, 70%);
+}
+#power{
+    font-size: 0.5rem;
+}
+#n0{
+    transform: translateX(220%);
+}
+#numcon{
+    width: 150px;
+}
+#opcon{
+    right: 10px;
+    width: 100px;
+    
+}
+#historya{
+    border-radius: 3px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    font-size: 2rem;
+    transform: translateX(-160%);
+    background-color: hsl(0, 3%, 77%);
+}
+.display{
+    display: block;
+}

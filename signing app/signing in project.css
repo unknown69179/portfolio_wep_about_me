@@ -1,0 +1,97 @@
+body{
+    background-color: hsl(0, 0%, 70%);
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    transition: background-color 0.7s;
+}
+div{
+    user-select: none;
+}
+h1{
+    user-select: none;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 20px;
+    height: 90vh;
+    width: 70vw;
+}
+#second-box{
+    transition: height 0.7s,width 0.7s,filter 0.7s,background-color 0.7s,transform 0.7s;
+}
+#first-box{
+    transition: height 0.7s,width 0.7s,filter 0.7s,background-color 0.7s,transform 0.7s;
+}
+.second-box-c{
+    text-align: center;
+    font-size: 0.5em;
+    font-family: cursive;
+    border-radius: 15px;
+    background-color: hsl(39, 100%, 70%);
+    filter: blur(60px);
+    width: 200px;
+    height: 200px;
+}
+.first-box-c{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: cursive;
+    border-radius: 15px;
+    background-color: hsl(0, 1%, 18%);
+    box-shadow: 2px 2px 15px hsl(0, 1%, 18%);
+    width: 400px;
+    height: 400px;
+}
+.second-box-transition{
+    box-shadow: 2px 2px 15px  hsl(40, 100%, 74%);
+    font-size: 1.5em;
+    font-family: cursive;
+    text-align: center;
+    background-color: hsl(39, 100%, 40%);
+    border-radius: 15px;
+    filter: blur(0px);
+    width: 400px;
+    height: 400px;
+    transform: translatex(-310px);
+}
+.first-box-transition{
+    border-radius: 15px;
+    background-color: hsl(0, 1%, 28%);
+    transform: translatex(310px);
+    filter: blur(60px);
+    width: 200px;
+    height: 200px;
+}
+.btn{
+    background-color: hsl(34, 63%, 89%);
+    margin-top: 10px;
+    border: none;
+    border-radius: 40px ;
+    font-size: 0.8em;
+    padding: 5px 15px;
+    transition: background-color 0.7s;
+}
+.inp{
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+#message{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 16%;
+    font-size: 3rem;
+}
+.btn:hover{
+    background-color: hsl(34, 63%, 79%);
+}
+#message{
+    transition: filter 0.5s;
+}
+.message{
+    filter: blur(40px);
+}
